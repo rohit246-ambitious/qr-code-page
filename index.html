@@ -16,7 +16,7 @@
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
     body{
-      background-color: hsl(226, 55%, 84%) ;
+      background-color: hsl(228, 64%, 89%) ;
       height: 100vh;
       margin: 0;
       display: flex;
@@ -28,9 +28,9 @@
       background-color: white;
       display: flex;
       flex-direction: column;
-      width: 300px;
-      height: 475px;
-      margin:200px 0px 100px auto;
+      width: 350px;
+      height: 525px;
+      margin:200px 0px 170px auto;
       border-radius: 15px;
       padding-bottom: 15px; 
     }
@@ -41,22 +41,22 @@
     }
     img{
       border-radius: 15px;
-      height: 275px;
-      width: 275px;
+      height: 325px;
+      width: 325px;
     }
     .text-container{
-      width: 250px;
+      width: 300px;
       text-align: center;
       display: block;
       margin:-20px auto 10px auto;
       font-family: 'Outfit', sans-serif ;
-      font-size: 22px;
+      font-size: 24px;
     }
     .light-text{
       color: hsl(220, 15%, 55%);
       font-family: 'Outfit', sans-serif ;
-      width: 250px;
-      font-size: 15px;
+      width: 300px;
+      font-size: 17px;
       display: block;
       margin:-20px auto 10px auto;
       text-align: center;
@@ -64,11 +64,12 @@
   </style>
 </head>
 <body>
-
+<main>
  <div class="main-container">
+  <h1 style="display: none;">QR code component</h1>
     <div class="card">
       <div class ="img-container">
-        <img src="./images/image-qr-code.png" />
+        <img alt="QR Code" src="./images/image-qr-code.png" />
       </div>
       <div class="text-container">
         <p>
@@ -84,6 +85,6 @@
       Coded by <a href="https://github.com/rohit246-ambitious">Rohit Mhatre</a>.
     </div>
  </div>
-  
+</main>
 </body>
 </html>
